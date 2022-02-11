@@ -6,32 +6,66 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100%;
+}
+
 .wrapper {
+  min-height: 100%;
+}
+
+.button {
 }
 
 .hero {
+  background-image: url("../img/hero/bg_01.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #2bc0be;
+  min-height: 610px;
+  padding: 25px;
 }
 
 .container {
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 .hero__header {
+  display: flex;
 }
 
-.logo {
+.hero__logo {
+}
+
+.hero__logo-icon {
+  width: 175px;
 }
 
 .hero__info {
+  display: flex;
 }
 
 .hero__boarding-hours {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__boarding-hours-icon-div {
+}
+
+.hero__boarding-hours-icon {
+}
+
+.hero__boarding-hours-text {
+}
+.hero__boarding-hours-text-first-line {
+}
+.hero__boarding-hours-text-second-line {
 }
 
 .hero__telephone {
 }
 
 .hero__make-appointment {
-}
-
-.button {
 }
