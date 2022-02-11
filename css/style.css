@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+}
+
+.hero {
+}
+
+.container {
+}
+
+.hero__header {
+}
+
+.logo {
+}
+
+.hero__info {
+}
+
+.hero__boarding-hours {
+}
+
+.hero__telephone {
+}
+
+.hero__make-appointment {
+}
+
+.button {
+}
