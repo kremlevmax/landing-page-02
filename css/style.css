@@ -77,6 +77,29 @@ body {
   gap: 30px;
 }
 
+@media only screen and (max-device-width: 768px) {
+  .hero__header {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .hero__info {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-device-width: 440px) {
+  .hero__header {
+    align-items: flex-start;
+  }
+
+  .hero__info {
+    flex-direction: column;
+    margin: 0 0;
+  }
+}
+
 .hero__boarding-hours,
 .hero__telephone {
   display: flex;
@@ -124,6 +147,12 @@ body {
   display: flex;
   gap: 36px;
   align-items: center;
+}
+
+@media only screen and (max-device-width: 712px) {
+  .hero__navbar-items {
+    display: none;
+  }
 }
 
 .hero__navbar-item {
@@ -183,7 +212,6 @@ body {
   border-radius: 8px;
   top: -6px;
   right: -8px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,6 +224,12 @@ body {
   color: #ffffff;
 }
 
+@media only screen and (max-device-width: 839px) {
+  .header-button {
+    display: none;
+  }
+}
+
 .hero__title-div {
   max-width: 583px;
   margin-bottom: 48px;
@@ -206,6 +240,17 @@ body {
   font-size: 56px;
   line-height: 56px;
   color: #ffffff;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .hero__title-div {
+    max-width: 400px;
+  }
+
+  .hero_title {
+    font-size: 32px;
+    line-height: 32px;
+  }
 }
 
 .who-we-are {
@@ -310,7 +355,7 @@ body {
 
 .who-we-are__circles {
   position: absolute;
-  width: 20%;
+  width: 200px;
   top: -108px;
   right: -76px;
 }
@@ -322,8 +367,21 @@ body {
   bottom: -15%;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 1200px) {
   .who-we-are__circles {
+    right: -1%;
+  }
+}
+
+@media only screen and (max-device-width: 900px) {
+  .who-we-are__circles {
+    top: -50%;
+  }
+}
+
+@media only screen and (max-device-width: 460px) {
+  .who-we-are__circles {
+    display: none;
   }
 }
 
