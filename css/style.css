@@ -228,9 +228,26 @@ body {
   min-height: 700px;
 }
 
+@media only screen and (max-device-width: 768px) {
+  .who-we-are__absolute-div {
+    min-height: 500px;
+  }
+
+  .who-we-are__main-div {
+    padding: 50px 40px 40% 40px;
+    min-height: 500px;
+  }
+}
+
 .title {
   margin-bottom: 32px;
   padding-left: 20px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .title {
+    margin-bottom: 20px;
+  }
 }
 
 .title-text {
@@ -250,10 +267,23 @@ body {
   margin-bottom: 36px;
 }
 
+@media only screen and (max-device-width: 768px) {
+  .subtitle {
+    margin-bottom: 20px;
+  }
+}
+
 .subtitle-text {
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .subtitle-text {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
 
 .subtitle_light {
@@ -280,7 +310,7 @@ body {
 
 .who-we-are__circles {
   position: absolute;
-  width: 200px;
+  width: 20%;
   top: -108px;
   right: -76px;
 }
@@ -290,4 +320,15 @@ body {
   max-width: 82%;
   right: 9%;
   bottom: -15%;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .who-we-are__circles {
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  .who-we-are__doggo {
+    bottom: -10%;
+  }
 }
