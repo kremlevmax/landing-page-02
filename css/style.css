@@ -232,6 +232,15 @@ body {
   }
 }
 
+@media only screen and (max-device-width: 440px) {
+  .hero__burger-lines {
+    top: 256px;
+  }
+  .hero__burger-lines-check {
+    top: 238px;
+  }
+}
+
 .hero__navbar-item {
   font-size: 14px;
   line-height: 22px;
