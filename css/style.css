@@ -344,6 +344,35 @@ body {
   }
 }
 
+.hero__navbar-burger-items {
+  display: none;
+}
+
+@media only screen and (max-device-width: 712px) {
+  .hero__navbar-burger-items {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 20px 20px 30px;
+    top: 210px;
+    left: 20px;
+    border-radius: 0 0 10px 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .hero__navbar-burger-item-link:hover {
+    color: #f2726f;
+  }
+
+  .hero__burger-lines-check:checked ~ .hero__navbar-burger-items {
+    display: flex;
+    opacity: 1;
+  }
+}
 .who-we-are {
   min-height: 800px;
   position: relative;
