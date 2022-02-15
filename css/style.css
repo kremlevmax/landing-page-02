@@ -210,8 +210,8 @@ body {
   .hero__burger-lines-check:checked
     ~ .hero__burger-lines
     .hero__burger-line:nth-last-child(3) {
-    transform: rotate(44deg);
-    width: 34px;
+    transform: rotate(45deg);
+    width: 33px;
   }
 
   .hero__burger-lines-check:checked
@@ -223,8 +223,8 @@ body {
   .hero__burger-lines-check:checked
     ~ .hero__burger-lines
     .hero__burger-line:nth-last-child(1) {
-    width: 34px;
-    transform: rotate(-45deg) translate(-2px, -2px);
+    width: 33px;
+    transform: rotate(-45deg) translate(-1px, -2px);
   }
 
   .hero__burger-lines-check:checked ~ .hero__burger-lines .hero__burger-line {
@@ -234,7 +234,7 @@ body {
 
 @media only screen and (max-device-width: 440px) {
   .hero__burger-lines {
-    top: 256px;
+    top: 258px;
   }
   .hero__burger-lines-check {
     top: 238px;
@@ -255,6 +255,11 @@ body {
 
 .hero__navbar-item-link:hover {
   color: #f2726f;
+}
+
+.hero__expand-icon {
+  width: 16px;
+  vertical-align: text-bottom;
 }
 
 .hero__navbar-utility-buttons {
@@ -348,7 +353,47 @@ body {
   width: 100%;
   position: absolute;
   top: -80px;
-  min-height: 700px;
+  min-height: 800px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .who-we-are {
+    min-height: 600px;
+  }
+
+  .who-we-are__absolute-div {
+    min-height: 600px;
+  }
+}
+
+@media only screen and (max-device-width: 440px) {
+  .who-we-are {
+    min-height: 650px;
+  }
+
+  .who-we-are__absolute-div {
+    min-height: 650px;
+  }
+}
+
+@media only screen and (max-device-width: 340px) {
+  .who-we-are {
+    min-height: 750px;
+  }
+
+  .who-we-are__absolute-div {
+    min-height: 750px;
+  }
+}
+
+@media only screen and (max-device-width: 300px) {
+  .who-we-are {
+    min-height: 850px;
+  }
+
+  .who-we-are__absolute-div {
+    min-height: 850px;
+  }
 }
 
 .who-we-are__main-div {
