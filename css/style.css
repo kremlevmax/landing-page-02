@@ -387,6 +387,7 @@ body {
 .who-we-are {
   min-height: 800px;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .who-we-are__absolute-div {
@@ -399,6 +400,7 @@ body {
 @media only screen and (max-device-width: 768px) {
   .who-we-are {
     min-height: 600px;
+    margin-bottom: 0;
   }
 
   .who-we-are__absolute-div {
@@ -478,6 +480,10 @@ body {
   color: #f5f5f5;
 }
 
+.title_dark {
+  color: #5d62b5;
+}
+
 .subtitle {
   max-width: 584px;
   margin-bottom: 36px;
@@ -504,6 +510,10 @@ body {
 
 .subtitle_light {
   color: #ffffff;
+}
+
+.subtitle_dark {
+  color: #000000;
 }
 
 .who-we-are__text-div {
@@ -560,4 +570,58 @@ body {
   .who-we-are__doggo {
     bottom: -10%;
   }
+}
+
+.our-promise {
+  min-height: 448px;
+}
+.container {
+  min-height: 448px;
+}
+.our-promise__subtitle {
+  margin-bottom: 68px;
+}
+
+.our-promise__cards {
+  display: flex;
+  gap: 24px;
+}
+
+.our-promise__card {
+  display: flex;
+  gap: 22px;
+}
+
+.our-promise__card-icon-div {
+}
+
+.our-promise__card-icon {
+  width: 64px;
+}
+
+.our-promise__card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 235px;
+}
+
+.our-promise__card-text-title-div {
+}
+
+.our-promise__card-text-title {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  color: #f2726f;
+}
+
+.our-promise__card-text-paragraph-div {
+}
+
+.our-promise__card-text-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
 }
