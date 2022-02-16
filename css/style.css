@@ -685,3 +685,56 @@ body {
   color: #ffffff;
   margin-bottom: 42px;
 }
+
+.our-services {
+  background-color: #f5f5f5;
+}
+
+.our-services__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.our-services__card {
+  padding: 50px 44px;
+  max-width: 324px;
+  max-height: 340px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-services__card-icon-div {
+  width: 64px;
+  margin-bottom: 32px;
+}
+
+.our-services__card-icon {
+  width: 100%;
+}
+
+.our-services__card-title-div {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f2726f;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.our-services__card-title {
+}
+
+.our-services__card-text-div {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+
+.our-services__card-text {
+}
