@@ -130,7 +130,7 @@ body {
   line-height: 22px;
 }
 
-.hero__make-appointment-div {
+.make-appointment-div {
   width: 210px;
 }
 
@@ -609,6 +609,7 @@ body {
 }
 
 .our-promise__cards {
+  position: relative;
   display: flex;
   gap: 24px;
 }
@@ -650,4 +651,37 @@ body {
   line-height: 24px;
   letter-spacing: 0.15px;
   color: #4b4b4b;
+}
+
+.our-promise__dashed-div {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -10px;
+  left: 80px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  border: 1px dashed black;
+}
+
+.video {
+  min-height: 500px;
+  background-image: url("../img/video/bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.video__main-div {
+  width: 100%;
+  padding: 100px 0 0 610px;
+}
+
+.video__title {
+  max-width: 411px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 42px;
 }
