@@ -130,7 +130,7 @@ body {
   line-height: 22px;
 }
 
-.make-appointment-div {
+.button-div {
   width: 210px;
 }
 
@@ -600,10 +600,9 @@ body {
 
 .our-promise {
   min-height: 448px;
+  margin-bottom: 122px;
 }
-.container {
-  min-height: 448px;
-}
+
 .our-promise__subtitle {
   margin-bottom: 68px;
 }
@@ -612,11 +611,14 @@ body {
   position: relative;
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .our-promise__card {
   display: flex;
   gap: 22px;
+  max-width: 324px;
 }
 
 .our-promise__card-icon-div {
@@ -674,7 +676,12 @@ body {
 
 .video__main-div {
   width: 100%;
-  padding: 100px 0 0 610px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.video__left {
 }
 
 .video__title {
@@ -688,12 +695,28 @@ body {
 
 .our-services {
   background-color: #f5f5f5;
+  min-height: 1220px;
+}
+
+.our-services__container {
+  padding-top: 110px;
+  padding-bottom: 122px;
+}
+
+.our-services__title {
+  margin-bottom: 32px;
+}
+
+.our-services__subtitle {
+  margin-bottom: 76px;
 }
 
 .our-services__cards {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-bottom: 66px;
+  justify-content: center;
 }
 
 .our-services__card {
@@ -705,6 +728,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.our-services__card_selected {
+  filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24))
+    drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
 }
 
 .our-services__card-icon-div {
@@ -737,4 +765,9 @@ body {
 }
 
 .our-services__card-text {
+}
+
+.our-service-button {
+  width: 124px;
+  margin: 0 auto;
 }
