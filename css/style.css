@@ -603,7 +603,6 @@ textarea {
 
 .our-promise {
   min-height: 448px;
-  margin-bottom: 122px;
 }
 
 .our-promise__subtitle {
@@ -616,6 +615,7 @@ textarea {
   gap: 24px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .our-promise__card {
