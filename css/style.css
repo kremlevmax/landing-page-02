@@ -804,6 +804,8 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   gap: 112px;
+  z-index: 5;
+  position: relative;
 }
 
 .appointment__form-div {
@@ -815,12 +817,25 @@ textarea {
   border-radius: 40px;
   filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24))
     drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+  z-index: 4;
+}
+.appointment__form-div-blob {
+  position: absolute;
+  top: -100px;
+  left: -150px;
+  width: 800px;
+  height: 900px;
+  background-image: url("/img/appointment/blob.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
 }
 
 .appointment__form-header-div {
   width: 100%;
   text-align: center;
   margin-bottom: 42px;
+  z-index: 4;
 }
 
 .appointment__form-header {
