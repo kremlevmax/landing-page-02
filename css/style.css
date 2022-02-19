@@ -821,7 +821,7 @@ textarea {
 }
 .appointment__form-div-blob {
   position: absolute;
-  top: -100px;
+  top: -70px;
   left: -150px;
   width: 800px;
   height: 900px;
@@ -829,6 +829,18 @@ textarea {
   background-position: center;
   background-size: cover;
   z-index: -1;
+}
+
+.appointment__form-div-circles {
+  position: absolute;
+  top: 80px;
+  left: -80px;
+  width: 335px;
+  height: 566px;
+  background-image: url("/img/appointment/circles.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
 }
 
 .appointment__form-header-div {
