@@ -990,6 +990,34 @@ textarea {
   color: #ffffff;
 }
 
+.gallery__stream {
+  position: relative;
+}
+
+.gallery__stream::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #d5d5d5;
+}
+
+.gallery__stream_live {
+  position: relative;
+}
+
+.gallery__stream_live::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #62b58f;
+}
+
 .gallery__main-block-image-absolute {
   position: absolute;
   bottom: -120px;
