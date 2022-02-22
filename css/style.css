@@ -1041,3 +1041,28 @@ textarea {
 }
 .gallery__main-block-image {
 }
+
+.gallery__main-block-live-badge {
+  position: relative;
+}
+
+.gallery__main-block-live-badge::after {
+  content: "Live";
+  position: absolute;
+  top: 30px;
+  right: 32px;
+  width: 68px;
+  height: 30px;
+  filter: drop-shadow(0px 6px 12px rgba(38, 38, 38, 0.24))
+    drop-shadow(0px 12px 24px rgba(38, 38, 38, 0.2));
+  border-radius: 15px;
+  background-color: #62b58f;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+}
