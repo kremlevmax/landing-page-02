@@ -972,13 +972,13 @@ textarea {
 
 .gallery__main-block-menu {
   display: flex;
-  gap: 20px;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding-bottom: 15px;
 }
 
 .gallery__main-block-menu-item-div {
+  padding: 0 30px;
 }
 
 .gallery__main-block-menu-item {
@@ -988,6 +988,14 @@ textarea {
   letter-spacing: 0.15px;
   font-weight: 400;
   color: #ffffff;
+  margin: 0 auto;
+}
+
+#gallery__menu_gallery,
+#gallery__menu_stream-1,
+#gallery__menu_stream-2,
+#gallery__menu_stream-3 {
+  position: relative;
 }
 
 .gallery__stream {
