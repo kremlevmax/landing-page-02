@@ -1167,3 +1167,71 @@ textarea {
   letter-spacing: 0.15px;
   color: #f2726f;
 }
+
+.our-impact {
+  background-color: #29c3be;
+}
+
+.our-impact__dog-picture {
+}
+
+.our-impact__blob {
+}
+
+.main-div {
+  padding: 112px 0 212px;
+}
+
+.our-impact-title {
+}
+
+.our_impact__subtitle {
+  max-width: 412px;
+  margin-bottom: 80px;
+}
+
+.our-impact__impact-data {
+  display: flex;
+  gap: 24px;
+}
+
+.our-impact__impact-data-piece {
+  display: flex;
+  gap: 12px;
+  width: 236px;
+}
+
+.our-impact__impact-data-piece-icon-div {
+  max-width: 76px;
+}
+
+.our-impact__impact-data-piece-icon {
+  width: 100%;
+}
+
+.our-impact__impact-data-piece-text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.our-impact__impact-data-piece-text-number-div {
+}
+
+.our-impact__impact-data-piece-text-number {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 117%;
+  color: #ffffff;
+}
+
+.our-impact__impact-data-piece-text-desc-div {
+}
+
+.our-impact__impact-data-piece-text-desc {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #5d62b5;
+}
