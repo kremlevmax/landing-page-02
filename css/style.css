@@ -1170,12 +1170,37 @@ textarea {
 
 .our-impact {
   background-color: #29c3be;
+  max-height: 610px;
+}
+.our-impact__relative-div {
+  position: relative;
+  width: 100%;
 }
 
 .our-impact__dog-picture {
+  position: absolute;
+  top: -80px;
+  right: 0;
+  background-image: url("../img/our-impact/dog_001.png");
+  background-position: center;
+  background-size: cover;
+  width: 496px;
+  height: 316px;
+  border-radius: 40px;
+  z-index: 2;
 }
 
 .our-impact__blob {
+  position: absolute;
+  top: 0;
+  right: -140px;
+  background-image: url("../img/our-impact/blob_01.png");
+  background-position: center;
+  background-size: cover;
+  width: 760px;
+  height: 280px;
+
+  z-index: 1;
 }
 
 .main-div {
