@@ -18,12 +18,12 @@ textarea {
 }
 
 .wrapper {
-  min-height: 100%;
+  min-height: fit-content;
   overflow: hidden;
 }
 
 .button {
-  padding: 9px 15px;
+  padding: 12px 15px;
   width: 100%;
   background-color: #f2726f;
   color: white;
@@ -38,7 +38,7 @@ textarea {
 .button__text {
   text-transform: uppercase;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 200%;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -1171,6 +1171,7 @@ textarea {
 .our-impact {
   background-color: #29c3be;
   max-height: 610px;
+  margin-bottom: 82px;
 }
 .our-impact__relative-div {
   position: relative;
@@ -1259,4 +1260,31 @@ textarea {
   line-height: 150%;
   letter-spacing: 0.15px;
   color: #5d62b5;
+}
+
+.our-impact__bottom-div {
+  position: absolute;
+  bottom: -60px;
+  width: 100%;
+  background-color: #5d62b5;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 76px 46px 72px;
+}
+
+.our-impact__bottom-div-text-div {
+  max-width: 560px;
+}
+
+.our-impact__bottom-div-text {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 125%;
+  color: #ffffff;
+}
+
+.our-impact__bottom-div-button {
 }
