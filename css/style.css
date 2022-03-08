@@ -1410,6 +1410,7 @@ textarea {
 .bottom-links__contacts-item {
   display: flex;
   gap: 20px;
+  align-items: flex-start;
 }
 
 .bottom-links__contacts-item-icon {
