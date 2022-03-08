@@ -1288,3 +1288,141 @@ textarea {
 
 .our-impact__bottom-div-button {
 }
+
+.bottom-links {
+}
+
+.bottom-links__main-block {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bottom-links__description-block {
+  max-width: 235px;
+}
+
+.bottom-links__logo-block {
+  margin-bottom: 24px;
+}
+
+.bottom-links__logo {
+  max-width: 100%;
+}
+
+.bottom-links__desc-block {
+  margin-bottom: 32px;
+}
+
+.bottom-links__desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 157%;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+
+.bottom-links__social-media-links-block {
+  width: 100%;
+}
+
+.bottom-links__social-media-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 150px;
+}
+
+.bottom-links__social-media-link-block {
+}
+
+.bottom-links__social-media-link {
+  max-width: 24px;
+}
+
+.bottom-links__social-media-icon {
+  width: 100%;
+}
+
+.bottom-links__explore-links-block {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 157%;
+  letter-spacing: 0.15px;
+  max-width: 290px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-links__explore-links-header-block,
+.bottom-links__contacts-header-block {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.bottom-links__explore-link-header {
+  color: #4b4b4b;
+}
+
+.bottom-links__explore-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 112px;
+}
+
+.bottom-links__explore-links-column {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.bottom-links__explore-link-block {
+}
+
+.bottom-links__explore-link {
+  color: #4b4b4b;
+}
+
+.bottom-links__contacts-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-links__contacts-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 157%;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+
+.bottom-links__contacts-list-block {
+}
+
+.bottom-links__contacts-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bottom-links__contacts-item {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-links__contacts-item-icon {
+}
+
+.bottom-links__contacts-item-desc-block {
+  max-width: 200px;
+}
+
+.bottom-links__contacts-item-desc {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
