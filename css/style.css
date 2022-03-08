@@ -23,6 +23,8 @@ textarea {
 }
 
 .button {
+  position: relative;
+  z-index: 10;
   padding: 12px 15px;
   width: 100%;
   background-color: #f2726f;
@@ -673,10 +675,37 @@ textarea {
 .video {
   position: relative;
   min-height: 500px;
-  background-image: url("../img/video/bg.png");
-  background-position: center;
-  background-size: cover;
+  background-color: #29c3be;
   z-index: 3;
+}
+
+.video__circles {
+  position: absolute;
+  height: 30vmax;
+  top: 8vmax;
+  z-index: 1;
+}
+
+.video__blob {
+  position: absolute;
+  height: 20vmax;
+  z-index: 2;
+}
+
+.video__pup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 36vmax;
+  z-index: 2;
+}
+
+.video__ball {
+  position: absolute;
+  top: 0;
+  height: 30vmax;
+  right: 0;
+  z-index: 1;
 }
 
 .video__main-div {
@@ -686,16 +715,18 @@ textarea {
   justify-content: flex-end;
 }
 
-.video__left {
+.video__right-block {
 }
 
 .video__title {
+  position: relative;
   max-width: 411px;
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
   color: #ffffff;
   margin-bottom: 42px;
+  z-index: 5;
 }
 
 .our-services {
