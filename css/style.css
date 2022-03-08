@@ -1436,26 +1436,45 @@ textarea {
 
 .footer {
   max-height: 60px;
+  padding: 24px 0 18px;
   background-color: #5d62b5;
 }
 
 .footer__main-block {
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #ffffff;
 }
+
 .footer__tagline-block {
 }
+
 .footer__tagline {
 }
+
 .footer__policy-block {
+  display: flex;
+  gap: 8px;
 }
+
 .footer__company-name-block {
 }
+
 .footer__company-name {
 }
+
 .footer__privacy-policy-block {
 }
-.footer__privacy-policy-link {
-}
-.footer__terms-conditions-block {
-}
+
+.footer__privacy-policy-link,
 .footer__terms-conditions-link {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.footer__terms-conditions-block {
 }
