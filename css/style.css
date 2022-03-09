@@ -880,6 +880,16 @@ textarea {
   z-index: 1;
 }
 
+@media screen and (max-device-width: 620px) {
+  .appointment__form-div-circles {
+    top: 30%;
+  }
+
+  .appointment__form-div-blob {
+    top: 10%;
+  }
+}
+
 .appointment__form-header-div {
   width: 100%;
   text-align: center;
