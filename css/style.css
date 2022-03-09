@@ -1076,7 +1076,6 @@ textarea {
 }
 
 .gallery__stream_live {
-  position: relative;
 }
 
 .gallery__stream_live::after {
