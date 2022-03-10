@@ -1049,6 +1049,13 @@ textarea {
   padding-bottom: 15px;
 }
 
+@media screen and (min-device-width: 613px) and (max-device-width: 920px) {
+  .gallery__main-block-menu {
+    gap: 30%;
+    row-gap: 34px;
+  }
+}
+
 .gallery__main-block-menu-item-div {
   padding: 0 30px;
 }
@@ -1126,7 +1133,7 @@ textarea {
 @media screen and (max-device-width: 613px) {
   .gallery__main-block-image-absolute {
     position: absolute;
-    bottom: -120px;
+    bottom: -32vmax;
     left: 10px;
     right: 10px;
   }
