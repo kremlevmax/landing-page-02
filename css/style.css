@@ -935,6 +935,7 @@ textarea {
 }
 
 .appointment__form-data-area-input_large {
+  width: 100%;
   max-width: 470px;
   height: 180px;
   opacity: 0.8;
@@ -1026,6 +1027,12 @@ textarea {
   position: relative;
 }
 
+@media screen and (max-device-width: 613px) {
+  .gallery__main-block-div {
+    padding: 40px 40px;
+  }
+}
+
 .gallery__main-block-title {
 }
 
@@ -1035,6 +1042,8 @@ textarea {
 
 .gallery__main-block-menu {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 34px;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding-bottom: 15px;
@@ -1052,6 +1061,25 @@ textarea {
   font-weight: 400;
   color: #ffffff;
   margin: 0 auto;
+}
+
+@media screen and (max-device-width: 613px) {
+  .gallery__main-block-menu {
+    flex-direction: column;
+  }
+
+  .gallery__main-block-menu {
+    border-bottom: 0;
+  }
+
+  .gallery__main-block-menu-item-div {
+    padding: 0;
+  }
+
+  .gallery__main-block-menu-item-div {
+    display: inline-block;
+    width: fit-content;
+  }
 }
 
 #gallery__menu_gallery,
@@ -1093,6 +1121,15 @@ textarea {
   bottom: -120px;
   left: 88px;
   right: 88px;
+}
+
+@media screen and (max-device-width: 613px) {
+  .gallery__main-block-image-absolute {
+    position: absolute;
+    bottom: -120px;
+    left: 10px;
+    right: 10px;
+  }
 }
 
 .gallery__main-block-image-size-div {
