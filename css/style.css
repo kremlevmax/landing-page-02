@@ -60,8 +60,8 @@ textarea {
 }
 
 .container {
-  max-width: 1060px;
-  padding: 0 20px;
+  max-width: 1100px;
+  padding: 0 40px;
   margin: 0 auto;
 }
 
@@ -415,7 +415,7 @@ textarea {
 @media only screen and (max-device-width: 440px) {
   .who-we-are {
     min-height: 650px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
 
   .who-we-are__absolute-div {
@@ -532,13 +532,6 @@ textarea {
   line-height: 42px;
 }
 
-@media only screen and (max-device-width: 768px) {
-  .subtitle-text {
-    font-size: 24px;
-    line-height: 36px;
-  }
-}
-
 .subtitle_light {
   color: #ffffff;
 }
@@ -605,6 +598,7 @@ textarea {
 
 .our-promise {
   min-height: 448px;
+  padding-bottom: 120px;
 }
 
 .our-promise__subtitle {
@@ -1027,17 +1021,18 @@ textarea {
   position: relative;
 }
 
-@media screen and (max-device-width: 613px) {
+@media screen and (max-device-width: 735px) {
   .gallery {
     min-height: 1000px;
   }
 
   .gallery__main-block-div {
+    min-height: 700px;
     padding: 40px 40px;
   }
 }
 
-@media screen and (max-device-width: 272px) {
+@media screen and (max-device-width: 385px) {
   .gallery {
     min-height: 1000px;
   }
@@ -1048,7 +1043,7 @@ textarea {
   }
 }
 
-@media screen and (min-device-width: 613px) and (max-device-width: 920px) {
+@media screen and (min-device-width: 705px) and (max-device-width: 920px) {
   .gallery {
     min-height: 900px;
   }
@@ -1212,7 +1207,8 @@ textarea {
   position: relative;
   background-color: #f5f5f5;
   padding-top: 20px;
-  min-height: 590px;
+  min-height: 440px;
+  padding-bottom: 150px;
 }
 
 .our-customers__blob {
@@ -1233,6 +1229,9 @@ textarea {
   display: flex;
   gap: 24px;
   z-index: 2;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-customers__title-and-subtitle {
@@ -1301,7 +1300,7 @@ textarea {
 
 .our-impact {
   background-color: #29c3be;
-  max-height: 610px;
+  min-height: 610px;
   margin-bottom: 82px;
 }
 
@@ -1317,10 +1316,19 @@ textarea {
   background-image: url("../img/our-impact/dog_001.png");
   background-position: center;
   background-size: cover;
-  width: 496px;
+  width: 90vw;
+  max-width: 496px;
   height: 316px;
   border-radius: 40px;
   z-index: 2;
+}
+
+@media screen and (max-device-width: 575px) {
+  .our-impact__dog-picture {
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .our-impact__blob {
@@ -1332,12 +1340,23 @@ textarea {
   background-size: cover;
   width: 760px;
   height: 280px;
-
   z-index: 1;
 }
 
 .main-div {
   padding: 112px 0 212px;
+}
+
+@media screen and (max-device-width: 1046px) {
+  .main-div {
+    padding: 300px 0 312px;
+  }
+}
+
+@media screen and (max-device-width: 426px) {
+  .main-div {
+    padding: 300px 0 412px;
+  }
 }
 
 .our-impact-title {
@@ -1350,7 +1369,10 @@ textarea {
 
 .our-impact__impact-data {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-impact__impact-data-piece {
@@ -1400,12 +1422,30 @@ textarea {
   bottom: -60px;
   width: 100%;
   background-color: #5d62b5;
-  height: 150px;
+  min-height: 150px;
   border-radius: 20px;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 48px;
+  row-gap: 48px;
+  justify-content: space-evenly;
   align-items: center;
   padding: 44px 76px 46px 72px;
+}
+
+@media screen and (max-device-width: 1046px) {
+  .our-impact__bottom-div {
+    max-width: 535px;
+    bottom: -200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-device-width: 426px) {
+  .our-impact__bottom-div {
+    bottom: -300px;
+  }
 }
 
 .our-impact__bottom-div-text-div {
