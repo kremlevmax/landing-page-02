@@ -505,7 +505,7 @@ textarea {
 .title_dark::before {
   position: absolute;
   left: -40px;
-  bottom: -6px;
+  top: -7px;
   content: "";
   background-image: url("/img/mark.svg");
   background-size: 28px 28px;
@@ -1033,6 +1033,17 @@ textarea {
   }
 
   .gallery__main-block-div {
+    padding: 40px 40px;
+  }
+}
+
+@media screen and (max-device-width: 272px) {
+  .gallery {
+    min-height: 1000px;
+  }
+
+  .gallery__main-block-div {
+    min-height: 800px;
     padding: 40px 40px;
   }
 }
