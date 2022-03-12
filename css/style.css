@@ -134,7 +134,7 @@ textarea {
 }
 
 .button-div {
-  width: 210px;
+  max-width: 210px;
 }
 
 .hero__navbar {
@@ -353,6 +353,8 @@ textarea {
 @media only screen and (max-device-width: 712px) {
   .hero__navbar-burger-items {
     position: absolute;
+    top: 210px;
+    left: 40px;
     display: none;
     background-color: #fff;
     display: flex;
@@ -374,17 +376,9 @@ textarea {
   }
 }
 
-@media only screen and (max-device-width: 712px) {
-  .hero__navbar-burger-items {
-    top: 210px;
-    left: 20px;
-  }
-}
-
 @media only screen and (max-device-width: 440px) {
   .hero__navbar-burger-items {
     top: 280px;
-    left: 20px;
   }
 }
 
@@ -403,8 +397,8 @@ textarea {
 
 @media only screen and (max-device-width: 768px) {
   .who-we-are {
-    min-height: 600px;
-    margin-bottom: 0;
+    min-height: 700px;
+    margin-bottom: 50px;
   }
 
   .who-we-are__absolute-div {
@@ -415,7 +409,7 @@ textarea {
 @media only screen and (max-device-width: 440px) {
   .who-we-are {
     min-height: 650px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .who-we-are__absolute-div {
@@ -423,9 +417,10 @@ textarea {
   }
 }
 
-@media only screen and (max-device-width: 340px) {
+@media only screen and (max-device-width: 380px) {
   .who-we-are {
-    min-height: 750px;
+    min-height: 650px;
+    margin-bottom: 100px;
   }
 
   .who-we-are__absolute-div {
@@ -442,7 +437,6 @@ textarea {
     min-height: 850px;
   }
 }
-
 .who-we-are__main-div {
   background-color: #484c9a;
   border-radius: 20px;
@@ -452,13 +446,8 @@ textarea {
 }
 
 @media only screen and (max-device-width: 768px) {
-  .who-we-are__absolute-div {
-    min-height: 500px;
-  }
-
   .who-we-are__main-div {
-    padding: 50px 40px 40% 40px;
-    min-height: 500px;
+    padding: 40px 40px 40% 40px;
   }
 }
 
@@ -529,7 +518,19 @@ textarea {
 .subtitle-text {
   font-weight: 900;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 115%;
+}
+
+@media only screen and (max-device-width: 425px) {
+  .subtitle-text {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .subtitle-text {
+    font-size: 20px;
+  }
 }
 
 .subtitle_light {
@@ -584,7 +585,7 @@ textarea {
   }
 }
 
-@media only screen and (max-device-width: 460px) {
+@media only screen and (max-device-width: 540px) {
   .who-we-are__circles {
     display: none;
   }
@@ -596,9 +597,21 @@ textarea {
   }
 }
 
+@media only screen and (max-device-width: 600px) {
+  .who-we-are__doggo {
+    bottom: -5%;
+  }
+}
+
 .our-promise {
   min-height: 448px;
   padding-bottom: 120px;
+}
+
+@media only screen and (max-device-width: 290px) {
+  .our-promise {
+    padding-top: 50px;
+  }
 }
 
 .our-promise__subtitle {
@@ -1034,7 +1047,7 @@ textarea {
 
 @media screen and (max-device-width: 385px) {
   .gallery {
-    min-height: 1000px;
+    min-height: 1050px;
   }
 
   .gallery__main-block-div {
@@ -1231,7 +1244,6 @@ textarea {
   z-index: 2;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 .our-customers__title-and-subtitle {
@@ -1459,17 +1471,33 @@ textarea {
   color: #ffffff;
 }
 
+@media screen and (max-device-width: 375px) {
+  .our-impact__bottom-div {
+    max-width: 535px;
+    bottom: -200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .our-impact__bottom-div {
+    padding: 44px 20px 46px 20px;
+  }
+}
+
 .our-impact__bottom-div-button {
 }
 
 .bottom-links {
-  padding: 78px 0 124px;
+  padding: 40px 0 70px;
 }
 
 .bottom-links__main-block {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  gap: 40px;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .bottom-links__description-block {
@@ -1541,7 +1569,8 @@ textarea {
 .bottom-links__explore-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 112px;
+  gap: 60px;
+  row-gap: 14px;
 }
 
 .bottom-links__explore-links-column {
@@ -1607,13 +1636,15 @@ textarea {
 }
 
 .footer {
-  max-height: 60px;
+  min-height: 60px;
   padding: 24px 0 18px;
   background-color: #5d62b5;
 }
 
 .footer__main-block {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
   justify-content: space-between;
   font-weight: normal;
   font-size: 12px;
