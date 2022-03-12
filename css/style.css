@@ -690,6 +690,7 @@ textarea {
   position: absolute;
   height: 30vmax;
   top: 8vmax;
+  max-height: 300px;
   z-index: 1;
 }
 
@@ -697,6 +698,7 @@ textarea {
   position: absolute;
   height: 20vmax;
   z-index: 2;
+  max-height: 500px;
 }
 
 .video__pup {
@@ -705,14 +707,22 @@ textarea {
   left: 0;
   height: 62vmin;
   z-index: 2;
+  max-height: 500px;
 }
 
 .video__ball {
   position: absolute;
   top: 0;
+  right: 20vw;
   height: 30vmax;
-  right: 0;
+  max-height: 500px;
   z-index: 1;
+}
+
+@media screen and (max-device-width: 2000px) {
+  .video__ball {
+    right: 4vw;
+  }
 }
 
 .video__main-div {
