@@ -51,7 +51,7 @@ textarea {
 }
 
 .hero {
-  background: url("../img//hero/bg_01.png") no-repeat center center;
+  background: url("/../img//hero/bg_01.png") no-repeat center center;
   background-position: center;
   background-size: cover;
   background-color: #2bc0be;
@@ -284,11 +284,12 @@ textarea {
 }
 
 .hero__navbar-search {
-  background: url("../img//hero/search_24px.svg") no-repeat center center;
+  background: url("/../img//hero/search_24px.svg") no-repeat center center;
 }
 
 .hero__navbar-cart {
-  background: url("../img//hero/shopping_cart_24px.svg") no-repeat center center;
+  background: url("/../img//hero/shopping_cart_24px.svg") no-repeat center
+    center;
 }
 
 .hero__navbar-search:hover,
@@ -480,7 +481,7 @@ textarea {
   left: -40px;
   top: -7px;
   content: "";
-  background: url("../img//mark.svg") no-repeat center center;
+  background: url("/../img//mark.svg") no-repeat center center;
   background-size: 28px 28px;
   height: 28px;
   width: 28px;
@@ -496,7 +497,7 @@ textarea {
   left: -40px;
   top: -7px;
   content: "";
-  background: url("../img//mark.svg") no-repeat center center;
+  background: url("/../img//mark.svg") no-repeat center center;
   background-size: 28px 28px;
   height: 28px;
   width: 28px;
@@ -842,7 +843,7 @@ textarea {
 
 .appointment {
   position: relative;
-  background: url("../img//appointment/bg.png") no-repeat center center;
+  background: url("/../img//appointment/bg.png") no-repeat center center;
   background-position: center;
   background-size: cover;
   min-height: 980px;
@@ -879,7 +880,7 @@ textarea {
   top: 0;
   width: 800px;
   height: 900px;
-  background: url("../img//appointment/blob.png") no-repeat center center;
+  background: url("/../img//appointment/blob.png") no-repeat center center;
   background-position: center;
   background-size: cover;
   z-index: 2;
@@ -891,7 +892,7 @@ textarea {
   left: 5vmin;
   width: 335px;
   height: 566px;
-  background: url("../img//appointment/circles.png") no-repeat center center;
+  background: url("/../img//appointment/circles.png") no-repeat center center;
   background-position: center;
   background-size: cover;
   z-index: 1;
@@ -1189,7 +1190,7 @@ textarea {
 
 .gallery__main-block-image-div {
   width: 100%;
-  background: url("../img//gallery/stream_01.png") no-repeat center center;
+  background: url("/../img//gallery/stream_01.png") no-repeat center center;
   background-position: center;
   background-size: cover;
   min-height: 480px;
@@ -1238,7 +1239,7 @@ textarea {
   position: absolute;
   top: -600px;
   left: 0px;
-  background: url("../img//our-customers/blob_001.png") no-repeat center center;
+  background: url("/../img//our-customers/blob_001.png") no-repeat center center;
   background-position: center;
   background-size: cover;
   background-size: 1000px 100px;
@@ -1292,7 +1293,7 @@ textarea {
 }
 
 .our-customers__text-author-img_first {
-  background: url("../img//our-customers/portrait_001.png") no-repeat center
+  background: url("/../img//our-customers/portrait_001.png") no-repeat center
     center;
   background-position: center;
   background-size: cover;
@@ -1302,7 +1303,7 @@ textarea {
 }
 
 .our-customers__text-author-img_second {
-  background: url("../img//our-customers/portrait_002.png") no-repeat center
+  background: url("/../img//our-customers/portrait_002.png") no-repeat center
     center;
   background-position: center;
   background-size: cover;
@@ -1337,7 +1338,7 @@ textarea {
   position: absolute;
   top: -80px;
   right: 0;
-  background: url("../img//our-impact/dog_001.png") no-repeat center center;
+  background: url("/../img//our-impact/dog_001.png") no-repeat center center;
   background-position: center;
   background-size: cover;
   width: 90vw;
@@ -1359,7 +1360,7 @@ textarea {
   position: absolute;
   top: 0;
   right: -140px;
-  background: url("../img//our-impact/blob_01.png") no-repeat center center;
+  background: url("/../img//our-impact/blob_01.png") no-repeat center center;
   background-position: center;
   background-size: cover;
   width: 760px;
