@@ -51,7 +51,7 @@ textarea {
 }
 
 .hero {
-  background-image: url("..img/hero/bg_01.png");
+  background-image: url("/img/hero/bg_01.png");
   background-position: center;
   background-size: cover;
   background-color: #2bc0be;
@@ -284,11 +284,11 @@ textarea {
 }
 
 .hero__navbar-search {
-  background-image: url("..img/hero/search_24px.svg");
+  background-image: url("/img/hero/search_24px.svg");
 }
 
 .hero__navbar-cart {
-  background-image: url("..img/hero/shopping_cart_24px.svg");
+  background-image: url("/img/hero/shopping_cart_24px.svg");
 }
 
 .hero__navbar-search:hover,
@@ -1335,7 +1335,7 @@ textarea {
   position: absolute;
   top: -80px;
   right: 0;
-  background-image: url("..img/our-impact/dog_001.png");
+  background-image: url("img/our-impact/dog_001.png");
   background-position: center;
   background-size: cover;
   width: 90vw;
@@ -1357,7 +1357,7 @@ textarea {
   position: absolute;
   top: 0;
   right: -140px;
-  background-image: url("..img/our-impact/blob_01.png");
+  background-image: url("img/our-impact/blob_01.png");
   background-position: center;
   background-size: cover;
   width: 760px;
