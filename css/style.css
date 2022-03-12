@@ -51,7 +51,7 @@ textarea {
 }
 
 .hero {
-  background-image: url("/img/hero/bg_01.png");
+  background-image: url("..img/hero/bg_01.png");
   background-position: center;
   background-size: cover;
   background-color: #2bc0be;
@@ -284,11 +284,11 @@ textarea {
 }
 
 .hero__navbar-search {
-  background-image: url("/img/hero/search_24px.svg");
+  background-image: url("..img/hero/search_24px.svg");
 }
 
 .hero__navbar-cart {
-  background-image: url("/img/hero/shopping_cart_24px.svg");
+  background-image: url("..img/hero/shopping_cart_24px.svg");
 }
 
 .hero__navbar-search:hover,
@@ -480,7 +480,7 @@ textarea {
   left: -40px;
   top: -7px;
   content: "";
-  background-image: url("/img/mark.svg");
+  background-image: url("..img/mark.svg");
   background-size: 28px 28px;
   height: 28px;
   width: 28px;
@@ -496,7 +496,7 @@ textarea {
   left: -40px;
   top: -7px;
   content: "";
-  background-image: url("/img/mark.svg");
+  background-image: url("..img/mark.svg");
   background-size: 28px 28px;
   height: 28px;
   width: 28px;
@@ -842,7 +842,7 @@ textarea {
 
 .appointment {
   position: relative;
-  background-image: url("/img/appointment/bg.png");
+  background-image: url("..img/appointment/bg.png");
   background-position: center;
   background-size: cover;
   min-height: 980px;
@@ -879,7 +879,7 @@ textarea {
   top: 0;
   width: 800px;
   height: 900px;
-  background-image: url("/img/appointment/blob.png");
+  background-image: url("..img/appointment/blob.png");
   background-position: center;
   background-size: cover;
   z-index: 2;
@@ -891,7 +891,7 @@ textarea {
   left: 5vmin;
   width: 335px;
   height: 566px;
-  background-image: url("/img/appointment/circles.png");
+  background-image: url("..img/appointment/circles.png");
   background-position: center;
   background-size: cover;
   z-index: 1;
@@ -1189,7 +1189,7 @@ textarea {
 
 .gallery__main-block-image-div {
   width: 100%;
-  background-image: url("/img/gallery/stream_01.png");
+  background-image: url("..img/gallery/stream_01.png");
   background-position: center;
   background-size: cover;
   min-height: 480px;
@@ -1238,7 +1238,7 @@ textarea {
   position: absolute;
   top: -600px;
   left: 0px;
-  background-image: url("/img/our-customers/blob_001.png");
+  background-image: url("..img/our-customers/blob_001.png");
   background-position: center;
   background-size: cover;
   background-size: 1000px 100px;
@@ -1292,7 +1292,7 @@ textarea {
 }
 
 .our-customers__text-author-img_first {
-  background-image: url("/img/our-customers/portrait_001.png");
+  background-image: url("..img/our-customers/portrait_001.png");
   background-position: center;
   background-size: cover;
   background-size: 48px 48px;
@@ -1301,7 +1301,7 @@ textarea {
 }
 
 .our-customers__text-author-img_second {
-  background-image: url("/img/our-customers/portrait_002.png");
+  background-image: url("..img/our-customers/portrait_002.png");
   background-position: center;
   background-size: cover;
   background-size: 48px 48px;
@@ -1335,7 +1335,7 @@ textarea {
   position: absolute;
   top: -80px;
   right: 0;
-  background-image: url("/img/our-impact/dog_001.png");
+  background-image: url("..img/our-impact/dog_001.png");
   background-position: center;
   background-size: cover;
   width: 90vw;
@@ -1357,7 +1357,7 @@ textarea {
   position: absolute;
   top: 0;
   right: -140px;
-  background-image: url("/img/our-impact/blob_01.png");
+  background-image: url("..img/our-impact/blob_01.png");
   background-position: center;
   background-size: cover;
   width: 760px;
