@@ -55,7 +55,7 @@ textarea {
   background-position: center;
   background-size: cover;
   background-color: #2bc0be;
-  min-height: 800px;
+  min-height: 100vh;
   padding-top: 25px;
 }
 
