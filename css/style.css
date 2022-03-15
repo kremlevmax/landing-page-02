@@ -978,6 +978,16 @@ textarea {
   }
 }
 
+.appointment__form-data-area-input::placeholder,
+.appointment__form-data-area-input_large::placeholder {
+  color: #dfe0f0;
+}
+
+.appointment__form-data-area-input:focus::placeholder,
+.appointment__form-data-area-input_large:focus::placeholder {
+  color: transparent;
+}
+
 .apointment__form-button-div {
   display: flex;
   justify-content: end;
