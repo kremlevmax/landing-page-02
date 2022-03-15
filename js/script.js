@@ -57,16 +57,15 @@ let i = 0;
 function handleIntersection(entries) {
   entries.map((entry) => {
     if (entry.isIntersecting) {
-      const changeNumber = () => {
+      let interval = setInterval(() => {
         entry.target.innerHTML = new Intl.NumberFormat("en-IN").format(i);
-        i++;
         if (i === 5700) {
           clearInterval(interval);
           entry.target.innerText = "5,700+";
+        } else {
+          i++;
         }
-      };
-
-      let interval = setInterval(changeNumber, 1);
+      }, 1);
     }
   });
 }
