@@ -58,10 +58,11 @@ function handleIntersection(entries) {
   entries.map((entry) => {
     if (entry.isIntersecting) {
       const changeNumber = () => {
-        entry.target.innerText = i;
+        entry.target.innerHTML = new Intl.NumberFormat("en-IN").format(i);
         i++;
         if (i === 5700) {
           clearInterval(interval);
+          entry.target.innerText = "5,700+";
         }
       };
 
