@@ -371,19 +371,19 @@
             <div class="appointment__form-div-circles"></div>
             <div class="container">
                 <div class="appointment__main-div">
-                    <div class="appointment__form-div">
+                    <form class="appointment__form-div" id="appointment__form">
                         <div class="appointment__form-header-div">
                             <span class="appointment__form-header">Make an appointment</span>
                         </div>
                         <div class="appointment__form-data-area">
                             <input type="text" class="appointment__form-data-area-input"
                                 id="appointment__form-data-area_name" name="fname" placeholder="Name" required>
-                            <input type="text" class="appointment__form-data-area-input"
+                            <input type="email" class="appointment__form-data-area-input"
                                 id="appointment__form-data-area_email" name="femail" placeholder="Email" required>
                             <input type="text" class="appointment__form-data-area-input"
                                 id="appointment__form-data-area_phone" name="fphone" placeholder="Phone Number"
-                                required>
-                            <input type="text" class="appointment__form-data-area-input"
+                                pattern="[0-9]+" required>
+                            <input type=" text" class="appointment__form-data-area-input"
                                 id="appointment__form-data-area_service" name="fservice" placeholder="Select Service"
                                 required>
                         </div>
@@ -395,7 +395,7 @@
                         <div class="apointment__form-button-div">
                             <input class="button button__submit button__text" type="submit" value="Make an Appointment">
                         </div>
-                    </div>
+                    </form>
                     <div class="appointment__text">
                         <div class="appointment__text-title-div">
                             <span class="appointment__text-title">Maxime placeat facere possimus omnis </span>

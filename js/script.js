@@ -54,7 +54,7 @@ const turnOnStream3 = () => {
 const target = document.querySelector(".appointment__text-main-number");
 let i = 0;
 
-function handleIntersection(entries) {
+const handleIntersection = (entries) => {
   entries.map((entry) => {
     if (entry.isIntersecting) {
       let interval = setInterval(() => {
@@ -68,8 +68,29 @@ function handleIntersection(entries) {
       }, 1);
     }
   });
-}
+};
 
 const observer = new IntersectionObserver(handleIntersection);
 
 observer.observe(target);
+
+///Form validation
+
+const formInput = document.getElementsByClassName(
+  "appointment__form-data-area-input"
+);
+
+const formInputLarge = document.getElementById("appointment__form_message");
+
+const formSubmit = (event) => {
+  event.preventDefault();
+
+  for (const inputArea of formInput) {
+    inputArea.classList.add("appointment__form-data-area-input-pressed");
+  }
+  formInputLarge.classList.add("appointment__form-data-area-input-pressed");
+  console.log(formInput);
+};
+
+const form = document.getElementById("appointment__form");
+form.addEventListener("submit", formSubmit);

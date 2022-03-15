@@ -39,11 +39,6 @@ textarea {
 
 .button__submit {
   border-color: transparent;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 200%;
-  font-weight: 700;
-  white-space: nowrap;
 }
 
 .button__text {
@@ -951,6 +946,16 @@ textarea {
   border-style: solid;
   padding: 16px 24px;
   outline-color: #dfe0f0;
+}
+
+.appointment__form-data-area-input:invalid:not(:focus):not(:placeholder-shown) {
+  background-color: #b15db5;
+  border-color: #efdff0;
+}
+
+.appointment__form-data-area-input-pressed:invalid {
+  background-color: #b15db5;
+  border-color: #efdff0;
 }
 
 @media screen and (max-device-width: 620px) {
