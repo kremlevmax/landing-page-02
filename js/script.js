@@ -30,31 +30,12 @@ const turnOnStream3 = () => {
     '#gallery__menu_stream-3::after {content: ""; position: absolute;  left: 0; bottom: -17px; width: 100%; height: 4px; ; background-color: #fff}';
 };
 
-// number change
+// Number change
 
-// const callback = (entries) => {
-//   entries.forEach((entry) => {
-//     if (entry.isIntersecting) {
-//       entry.target.classList.add("element-show");
-//     }
-//   });
-// };
-
-// let options = {
-//   threshold: 1.0,
-// };
-
-// let observer = new IntersectionObserver(callback, options);
-// let elements = document.querySelectorAll("appointment__text-main-number");
-// for (let element in elements) {
-//   console.log(elements);
-//   // observer.observe(element);
-// }
-
-const target = document.querySelector(".appointment__text-main-number");
+const counterTarget = document.querySelector(".appointment__text-main-number");
 let i = 0;
 
-const handleIntersection = (entries) => {
+const handleCounterIntersection = (entries) => {
   entries.map((entry) => {
     if (entry.isIntersecting) {
       let interval = setInterval(() => {
@@ -70,9 +51,25 @@ const handleIntersection = (entries) => {
   });
 };
 
-const observer = new IntersectionObserver(handleIntersection);
+const counterObserver = new IntersectionObserver(handleCounterIntersection);
 
-observer.observe(target);
+counterObserver.observe(counterTarget);
+
+// Headers Animation
+const textsTarget = document.querySelectorAll(".text__animated");
+
+function handleIntersection(entries) {
+  entries.map((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+    }
+  });
+}
+
+const observer = new IntersectionObserver(handleIntersection);
+textsTarget.forEach((textTarget) => {
+  observer.observe(textTarget);
+});
 
 ///Form validation
 
