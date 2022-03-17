@@ -89,8 +89,16 @@ textarea {
   margin-bottom: 28px;
 }
 
+.hero__logo {
+  display: flex;
+}
+
 .hero__logo-icon {
   max-width: 175px;
+}
+
+.hero__logo-text-block {
+  padding: 10px 0 6px 12px;
 }
 
 .hero__info {
